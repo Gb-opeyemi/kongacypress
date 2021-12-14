@@ -2,22 +2,22 @@
 
 describe('Test Konga Login', ()=>{
     it('Launch the site', ()=>{
-        cy.visit('/')
+        cy.openSite()
     })
     it('Click the Sign in Icon', ()=>{
         cy.fixture('elementMapper').then((em)=>{
-        cy.get(em.signInIcon).should('be.visible').click()
+        cy.clickAnElement(em.signInIcon)
         })
     })
     it('Insert Credentials', ()=>{
         cy.fixture('elementMapper').then((em)=>{
-        cy.get(em.emailField).should('be.visible').type(em.emailText)
-        cy.get(em.passwordField).should('be.visible').type(em.passwordText)
+        cy.typeAText(em.emailField, em.emailText)
+        cy.typeAText(em.passwordField, em.passwordText)
         })
     })
     it('Click Sign In Button', ()=>{
         cy.fixture('elementMapper').then((em)=>{
-        cy.get(em.loginBtn).should('be.visible').click()
+        cy.clickAnElement(em.loginBtn)
         })
     })
 })
