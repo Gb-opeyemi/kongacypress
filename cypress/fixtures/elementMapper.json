@@ -1,0 +1,9 @@
+{
+    "signInIcon": "[href=\"/account/login?return_url=/\"]",
+    "emailField": "#username",
+    "passwordField": "#password",
+    "emailText": "henryt1455@gmail.com",
+    "passwordText": "7FE@fake",
+    "loginBtn": ".eed68_3IZCC > ._2aac2_3bwnD > ._0a08a_3czMG"
+
+}
