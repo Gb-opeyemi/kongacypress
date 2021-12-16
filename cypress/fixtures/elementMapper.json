@@ -4,6 +4,17 @@
     "passwordField": "#password",
     "emailText": "henryt1455@gmail.com",
     "passwordText": "7FE@fake",
-    "loginBtn": ".eed68_3IZCC > ._2aac2_3bwnD > ._0a08a_3czMG"
+    "loginBtn": ".eed68_3IZCC > ._2aac2_3bwnD > ._0a08a_3czMG",
+    "searchField": ".f6ed2_25oVd > .c3171_2iDwi > #jsSearchInput",
+    "searchText": "phones",
+    "searchIcon": ".f6ed2_25oVd > .fdd83_39Iap",
+    "phoneItem": "[href=\"/product/infinix-hot-10t-6-82-64gb-rom-4gb-ram-dual-sim-4g-lte-48mp-5000mah-green-5246959\"] > picture",
+    "buyBtn": "._7bc9f_Ef1Zw > ._2aac2_3bwnD > ._0a08a_3czMG",
+    "incrementBtn": ".c1256_3sLN7>[value=1]",
+    "decrementBtn": ".d0846_2WotE",
+    "contToCheckout": ".f082d_safAL > ._2aac2_3bwnD > ._0a08a_3czMG",
+    "payOnDelievry": ".bf048_3QYmx > :nth-child(2) > ._2aac2_3bwnD > ._0a08a_3czMG",
+    "placeOrderBtn": ".f082d_safAL > ._2aac2_3bwnD > ._0a08a_3czMG",
+    "accountIcon": "[href=\"/account/profile\"]"
 
 }
